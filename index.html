@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
     </style>
-    <title>Desafio Taboada</title>
+    <title>Desafio Tabuada DNC</title>
 
 </head>
 <body>
@@ -21,27 +21,29 @@
         <p>
          Qual Tabuada você deseja saber ?
         </p>
-        <input type="number" name="" class="formulario">
+        <input type="number" name="" class="formulario" id="num">
 
         </div>
             <p>
             Até que numero você quer ?
             </p>
-            <input type="number" name="" class="formulario">
+            <input type="number" name="" class="formulario" id="end">
 
             <p>
-            <input type="button" value="Calcular" id="botao">
+            <input type="button" value="Calcular" id="botao" onclick="tabuada()">
 
             </p>
 
-
-
-        <div id="reposta">
+        <div id="resposta">
 
             Preencha os valores acima..
 
         </div>
+
+
     </section>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
